@@ -8,9 +8,10 @@ Se revisó el comando `process-run.py` que es un aplicativo provisto por el auto
 
 Ejecución de ejemplo:
 
- ``
+ ```
 ./process-run.py -l 3:0,3:100 -L -c -p
-``
+```
+
 ---
 
 Esta ejecución lo que permite es simular la ejecición de dos procesos. Un primer proceso intensivo en I/O (`3:0`) y u  segundo proceso intensivo en CPU (`3:100`).

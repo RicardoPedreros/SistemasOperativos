@@ -1,6 +1,6 @@
 # 2019_06_21
 
-El día de hoy se revisaron conceptos básicos respecto al estado en el que se puede encontrar un proceso en el Sistema Operativo: __Waiting__,__Ready__, __Running__ y __Done__.
+El día de hoy se revisaron conceptos básicos respecto al estado en el que se puede encontrar un proceso en el Sistema Operativo: _Waiting_, _Ready_, _Running_ y _Done_.
 
 Se revisó el comando `process-run.py` que es un aplicativo provisto por el autor del libro guía del curso.
  * `process-run.py` aplicativo que simula la ejecución de procesos y sus operaciones en CPU o en I/O.
@@ -8,7 +8,10 @@ Se revisó el comando `process-run.py` que es un aplicativo provisto por el auto
 
 Ejecución de ejemplo:
 
- ``./process-run.py -l 3:0,3:100 -L -c -p``
+ ``
+./process-run.py -l 3:0,3:100 -L -c -p
+``
+---
 
 Esta ejecución lo que permite es simular la ejecición de dos procesos. Un primer proceso intensivo en I/O (`3:0`) y u  segundo proceso intensivo en CPU (`3:100`).
 

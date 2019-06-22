@@ -14,6 +14,6 @@ Ejecución de ejemplo:
 
 ---
 
-Esta ejecución lo que permite es simular la ejecición de dos procesos. Un primer proceso intensivo en I/O (`3:0`) y u  segundo proceso intensivo en CPU (`3:100`).
+Esta ejecución lo que permite es simular la ejecición de dos procesos. Un primer proceso intensivo en I/O (`3:0`) y un segundo proceso intensivo en CPU (`3:100`).
 
-Los argumentos `-c -p` dan información adicional relativa al comportamiento de los procesos en el simulador, e.g. porcentaje de uso de la CPU y de operacione de I/O
+Los argumentos `-c -p` dan información adicional relativa al comportamiento de los procesos en el simulador, e.g. porcentaje de uso de la CPU y de operaciones de I/O

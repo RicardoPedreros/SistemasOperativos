@@ -11,11 +11,11 @@ Cerrando antes del for:
 
 Se utilizaron los siguientes valores:
 
-2500: 
-	tiempo de ejecucion: 0.000178
-10000:
-	tiempo de ejecucion: 0.000212
-50000:
+2500:   
+	tiempo de ejecucion: 0.000178  
+10000:  
+	tiempo de ejecucion: 0.000212  
+50000:  
         tiempo de ejecución: 0.000507
 300000:
 	tiempo de ejecución: 0.002175

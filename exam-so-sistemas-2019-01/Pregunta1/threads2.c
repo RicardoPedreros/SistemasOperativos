@@ -10,13 +10,15 @@ int loops;
 
 void *worker(void *arg) {
     int i;
-    for (i = 0; i < loops; i++) {
         cerrar_puerta(puerta1);
 
+    for (i = 0; i < loops; i++) {
+
         counter++;
-        abrir_puerta(puerta1);
 
     }
+        abrir_puerta(puerta1);
+
     return NULL;
 }
 
